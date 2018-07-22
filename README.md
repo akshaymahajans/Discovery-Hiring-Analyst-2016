@@ -4,7 +4,7 @@ Task description and data for candidates applying to be a Data Analyst in the DS
 
 ## Background
 
-Branch's core platform relies on a concept known as a *Persona* ID -- a persona ID is a unique identifier for a pattern of activity of app usage and link clicks. Specifically, DSBA is interested in:
+Branch's core platform keeps logs of activities made by *Persona* ID's -- a persona ID is a unique identifier for a specific iPhone's activity of app usage and mobile link clicks. Specifically, DSBA is interested in:
 
 - *open rate*: the proportion of sessions where the persona opened an app
 - *campaign click-to-install rate* - the proportion of marketing campaign clicks where the persona ultimately installed the app
@@ -15,10 +15,10 @@ and other metrics outside the scope of this task. Persona derives its data from 
 
 You must create a **reproducible report**\* answering the following questions:
 
-1. What is our daily overall clickthrough rate? How does it vary between the groups?
-2. Which results do people tend to try first? How does it change day-to-day?
-3. What is our daily overall zero results rate? How does it vary between the groups?
-4. Let *session length* be approximately the time between the first event and the last event in a session. Choose a variable from the dataset and describe its relationship to session length. Visualize the relationship.
+1. What is our daily overall open rate? How does it vary between app verticals?
+2. Which verticals do personas engage (click licks) for most? How does it change day-to-day?
+3. What is the average campaign click to install rate? How does it vary day-by-day? By vertical?
+4. Let *persona duration* be approximately the time between the first event (click or open) for a persona and the last event for a persona. Choose a variable from the dataset and describe its relationship to persona duration. Visualize the relationship.
 5. Summarize your findings in an *executive summary*.
 
 \* Given dependencies and other instructions, we should be able to re-run your source code with the dataset in the same directory and obtain the same results and figures. Popular formats for this include RMarkdown and Jupyter Notebook (formerly IPython).
