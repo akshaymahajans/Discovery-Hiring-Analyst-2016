@@ -1,15 +1,15 @@
 # Data Analysis Task
 
-Task description and data for candidates applying to be a Data Analyst in the [Discovery department](https://www.mediawiki.org/wiki/Wikimedia_Discovery) at [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home).
+Task description and data for candidates applying to be a Data Analyst in the DSBA team at Branch.
 
 ## Background
 
-Discovery (and other teams within the Foundation) rely on *event logging* (EL) to track a variety of performance and usage metrics to help us make decisions. Specifically, Discovery is interested in:
+Branch's core platform relies on a concept known as a *Persona* ID -- a persona ID is a unique identifier for a pattern of activity of app usage and link clicks. Specifically, DSBA is interested in:
 
-- *clickthrough rate*: the proportion of search sessions where the user clicked on one of the results displayed
-- *zero results rate*: the proportion of searches that yielded 0 results
+- *open rate*: the proportion of sessions where the persona opened an app
+- *campaign click-to-install rate* - the proportion of marketing campaign clicks where the persona ultimately installed the app
 
-and other metrics outside the scope of this task. EL uses JavaScript to asynchronously send messages (events) to our servers when the user has performed specific actions. In this task, you will analyze a subset of our event logs.
+and other metrics outside the scope of this task. Persona derives its data from Javascript cookies, which send information about the user's device and web browser to our servers when a persona engages with a Branch link. In this task, you will analyze a subset of our Persona data. 
 
 ## Task
 
